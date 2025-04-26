@@ -1,0 +1,2 @@
+
+GET http://localhost:3001/api/customer/1/cartItems HTTP/1.1

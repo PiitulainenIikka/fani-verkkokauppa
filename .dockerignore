@@ -1,0 +1,15 @@
+*/.vscode
+*/node_modules
+*/.env
+*/.env_local
+*/.env_remote
+.dockerignore
+*/.gitignore
+*/build
+.git
+.aws
+*/docker-compose.yml
+Docker
+*/readme.md
+*/jsonback
+*/db_test.js

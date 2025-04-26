@@ -1,0 +1,55 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "customer",
+	"type": "object",
+	"properties": {
+		"first_name": {
+			"type": "string",
+			"minLength": 1
+		},
+		"last_name": {
+			"type": "string",
+			"minLength": 1
+		},
+		"email": {
+			"type": "string",
+			"minLength": 1
+		},
+		"phone": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 20
+		},
+		"address": {
+			"type": "string",
+			"minLength": 1
+		},
+		"city": {
+			"type": "string",
+			"minLength": 1
+		},
+		"postcode": {
+			"type": "string",
+			"minLength": 1
+		},
+		"username": {
+			"type": "string",
+			"minLength": 1
+		},
+		"password": {
+			"type": "string",
+			"minLength": 8,
+			"maxLength": 20
+		}
+	},
+	"required": [
+		"first_name",
+		"last_name",
+		"email",
+		"phone",
+		"address",
+		"city",
+		"postcode",
+		"password"
+	]
+}

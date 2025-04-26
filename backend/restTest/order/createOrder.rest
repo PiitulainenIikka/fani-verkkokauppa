@@ -1,0 +1,23 @@
+
+POST http://localhost:3001/api/orders HTTP/1.1
+Content-Type: application/json
+
+{
+    "customer": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "address": "123 Main St",
+        "email": "John.doe@gmail.com",
+        "phone": "123-456-7890"
+    },
+    "products": [
+        {
+            "product_id": 1,
+            "quantity": 1
+        },
+        {
+            "product_id": 2,
+            "quantity": 2
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+GET http://localhost:3001/api/products/1/sizes HTTP/1.1

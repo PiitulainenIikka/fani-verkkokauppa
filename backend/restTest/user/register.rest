@@ -1,0 +1,13 @@
+POST http://localhost:3001/api/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "admin123@gmail.com",
+    "phone": "1234567890",
+    "address": "123 Main St",
+    "city": "New York",
+    "postcode": "12345",
+    "password": "admin123"
+}
